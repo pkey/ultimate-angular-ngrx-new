@@ -1,7 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
-import "rxjs/add/observable/throw";
 import { Topping } from "../models/topping.model";
 
 @Injectable()
