@@ -1,5 +1,6 @@
-import { ActionReducerMap } from "@ngrx/store";
-import * as fromPizzas from "./pizzas.reducer";
+import { ActionReducerMap } from '@ngrx/store';
+import * as fromPizzas from './pizzas.reducers';
+
 export interface ProductsState {
   pizzas: fromPizzas.PizzaState;
 }

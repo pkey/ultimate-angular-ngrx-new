@@ -1,1 +1,1 @@
-export * from "./actions/pizzas.action";
+export * from './reducers';
